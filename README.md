@@ -45,26 +45,14 @@ project/
 - Google Gemini AI API Key
 - Vercel account (for deployment)
 
-### Installation
 
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/harshilchovatiya/ai_content.git
-    cd ai_content
-    ```
-
-2. **Install dependencies**:
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-3. **Configure the API key**:
+ **Configure the API key**:
     Replace the `YOUR_API_KEY` in `app.py` with your actual Google Gemini AI API key.
     ```python
     genai.configure(api_key='YOUR_API_KEY')
     ```
 
-4. **Run the application**:
+ **Run the application**:
     ```bash
     python app.py
     ```
@@ -111,12 +99,4 @@ To deploy the application on Vercel, follow these steps:
 - **Send Messages**: Type your message in the input box and press Enter to send. The AI response will appear in the chat area.
 - **New Chat**: Click on "New Chat" in the sidebar to start a new conversation.
 - **Delete Chat**: Click on the three dots next to a chat in the sidebar to delete it. A confirmation popup will appear.
-
-## Contributing
-
-If you'd like to contribute to this project, please fork the repository and use a feature branch. Pull requests are warmly welcome.
-
-## Contact
-
-For any inquiries or feedback, feel free to contact [Harshil Chovatiya](mailto:harshilbmk@gmail.com).
 
