@@ -17,27 +17,6 @@ This project is a real-time AI chatbot built using Flask, HTML, CSS, and JavaScr
 - Google Gemini AI API
 - Vercel for deployment
 
-## Directory Structure
-
-```
-project/
-├── static/
-│   ├── css/
-│   │   └── styles.css
-│   ├── images/
-│   │   └── ai_logo.png
-│   │   └── user_logo.png
-│   └── js/
-│       └── scripts.js
-├── templates/
-│   └── index.html
-├── app.py
-├── requirements.txt
-└── vercel.json
-```
-
-## Getting Started
-
 ### Prerequisites
 
 - Python 3.x
@@ -63,36 +42,10 @@ project/
 - **app.py**: The main Flask application file.
 - **requirements.txt**: Contains all the dependencies required for the project.
 - **vercel.json**: Configuration file for deploying the app on Vercel.
-- **static/css/styles.css**: CSS file for styling the application.
-- **static/js/scripts.js**: JavaScript file for handling the frontend logic.
-- **templates/index.html**: HTML file for the application's main interface.
+- **styles.css**: CSS file for styling the application.
+- **scripts.js**: JavaScript file for handling the frontend logic.
+- **index.html**: HTML file for the application's main interface.
 
-## Deployment
-
-To deploy the application on Vercel, follow these steps:
-
-1. **Push your code to GitHub**:
-    ```bash
-    git add .
-    git commit -m "Initial commit"
-    git push origin main
-    ```
-
-2. **Log in to Vercel**: Go to [Vercel’s website](https://vercel.com/) and log in or create an account.
-
-3. **Import Project**:
-   - Click on "New Project" or "Import Project" from your Vercel dashboard.
-   - Connect your GitHub account if you haven't already.
-   - Select the repository where your Flask app is hosted.
-
-4. **Configure Project**:
-   - Ensure the framework preset is set to “Python” or that Vercel detects the `vercel.json` file.
-
-5. **Deploy**:
-   - Click on "Deploy" to start the deployment process.
-   - Vercel will build and deploy your application. You can monitor the build logs and deployment status on the Vercel dashboard.
-
-6. **Access Your App**: Once deployed, Vercel provides a unique URL for your application (e.g., `your-app-name.vercel.app`).
 
 ## Usage
 
